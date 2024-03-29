@@ -30,6 +30,7 @@ export default function Assignment3() {
         } else {
             setUserDetails(null)
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [id])
 
     const handleChange = (e) => {
