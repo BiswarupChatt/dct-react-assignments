@@ -5,8 +5,8 @@
 // import Assignment5 from "./R1S12/Assignment5"
 // import Assignment6 from "./R1S12/Assignment6"
 // import Assignment7 from "./R1S12/Assignment7"
-import Assignment8 from "./R1S12/Assignment8"
-// import Assignment9 from "./R1S12/Assignment9"
+// import Assignment8 from "./R1S12/Assignment8"
+import Assignment9 from "./R1S12/Assignment9"
 // import Assignment10 from "./R1S12/Assignment10"
 // import Assignment11 from "./R1S12/Assignment11"
 // import Assignment12 from "./R1S12/Assignment12"
@@ -26,8 +26,8 @@ export default function App() {
         {/* <Assignment5 /> */}
         {/* <Assignment6 /> */}
         {/* <Assignment7 /> */}
-        <Assignment8 />
-        {/* <Assignment9 /> */}
+        {/* <Assignment8 /> */}
+        <Assignment9 />
         {/* <Assignment10 /> */}
         {/* <Assignment11 /> */}
         {/* <Assignment12 /> */}

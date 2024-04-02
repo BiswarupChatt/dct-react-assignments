@@ -32,9 +32,7 @@ export default function Assignment8() {
             })
     }
 
-    const handleComplete = (e) => {
-        setCompleted(e.target.checked)
-    }
+
     return (
         <div>
             <h1>Assignment 8 </h1>
@@ -58,7 +56,9 @@ export default function Assignment8() {
                         <input
                             type="checkbox"
                             checked={completed}
-                            onChange={handleComplete}
+                            onChange={(e)=>{
+                                setCompleted(e.target.checked)
+                            }}
                         />
                         Completed?
                     </label>
