@@ -31,7 +31,7 @@ export default function Assignment7() {
 
     return (
         <div>
-            <h1>Assignments7</h1>
+            <h1>Assignments 7</h1>
 
             <label htmlFor="user">
                 User
@@ -44,18 +44,18 @@ export default function Assignment7() {
                     )
                 })}
             </select>
-                {todoUser.length > 0 && 
-                    (<div>
-                        <h3>Listing Task</h3>
-                        <ul>
-                            {todoUser.map((ele) => {
-                                return (
-                                    <li key={ele.id} style={{textDecoration: ele.completed?  "line-through" : "none", color: ele.completed? 'green': 'red'}}>{ele.title}</li>
-                                );
-                            })}
-                        </ul>
-                    </div>)
-                }
+            {todoUser.length > 0 &&
+                (<div>
+                    <h3>Listing Task</h3>
+                    <ul>
+                        {todoUser.map((ele) => {
+                            return (
+                                <li key={ele.id} style={{ textDecoration: ele.completed ? "line-through" : "none", color: ele.completed ? 'green' : 'red' }}>{ele.title}</li>
+                            );
+                        })}
+                    </ul>
+                </div>)
+            }
         </div>
 
 
