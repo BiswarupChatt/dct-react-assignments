@@ -11,8 +11,8 @@
 // import Assignment11 from "./R1S12/Assignment11"
 // import Assignment12 from "./R1S12/Assignment12"
 // import Assignment13 from "./R1S12/Assignment13"
-import Assignment14 from "./R1S12/Assignment14"
-// import Assignment15 from "./R1S12/Assignment15"
+// import Assignment14 from "./R1S12/Assignment14"
+import Assignment15 from "./R1S12/Assignment15"
 
 export default function App() {
   return (
@@ -32,8 +32,8 @@ export default function App() {
         {/* <Assignment11 /> */}
         {/* <Assignment12 /> */}
         {/* <Assignment13 /> */}
-        <Assignment14 />
-        {/* <Assignment15 />  */}
+        {/* <Assignment14 /> */}
+        <Assignment15 /> 
       </h1>
     </div>
   )
